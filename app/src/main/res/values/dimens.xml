@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splash">42sp</dimen>
+
+    <dimen name="regular_small">18sp</dimen>
+    <dimen name="regular">20sp</dimen>
+    <dimen name="regular_medium">22sp</dimen>
+
+    <dimen name="bold_very_small">18sp</dimen>
+    <dimen name="bold_small">20sp</dimen>
+    <dimen name="bold_medium">24sp</dimen>
+
+</resources>

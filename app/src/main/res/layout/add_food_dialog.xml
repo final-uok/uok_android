@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBackground"
+    android:orientation="vertical"
+    android:paddingStart="24dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:includeFontPadding="false"
+        android:text="@string/add_food_dialog_fixed_txt"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/regular_medium" />
+
+    <EditText
+        android:id="@+id/edt_addFood_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/add_food_dialog_food_name_hint"
+        android:inputType="text"
+        android:maxLength="40"
+        android:maxLines="1"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/regular" />
+
+    <EditText
+        android:id="@+id/edt_addFood_count"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/add_food_dialog_food_count_hint"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:paddingRight="14dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/hintColor"
+        android:textSize="@dimen/regular" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_addFood_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_weight="0.45"
+            android:background="@drawable/custom_button"
+            android:text="@string/add_food_dialog_btn_add"
+            android:textColor="#fff"
+            android:textSize="@dimen/regular" />
+
+        <Button
+            android:id="@+id/btn_addFood_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0.45"
+            android:background="@drawable/custom_button"
+            android:text="@string/add_food_dialog_btn_cancel"
+            android:textColor="#fff"
+            android:textSize="@dimen/regular" />
+
+    </LinearLayout>
+
+</LinearLayout>

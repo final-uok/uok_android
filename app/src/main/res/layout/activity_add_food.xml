@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBackground">
+
+    <ProgressBar
+        android:id="@+id/progressBar_addFood"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/txt_addFood_noMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_message"
+        android:paddingBottom="65dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/bold_medium" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/addFood_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_addFood_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12dp"
+            app:srcCompat="@drawable/ic_add_white_24dp" />
+
+        <Button
+            android:id="@+id/btn_addFood_send"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/custom_button"
+            android:layoutDirection="rtl"
+            android:text="@string/add_food_send"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="@dimen/regular" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

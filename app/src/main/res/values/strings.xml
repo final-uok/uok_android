@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">ته مانده</string>
+
+    <string name="splash_text">ته‌مانده</string>
+
+    <string name="no_message">داده‌ای جهت نمایش وجود ندارد</string>
+
+    <string name="login_screen_title">ورود</string>
+    <string name="login_user_name_hint">نام کاربری</string>
+    <string name="login_password_hint">رمز عبور</string>
+    <string name="login_philanthropist_radio_button">نذر کننده</string>
+    <string name="login_charity_radio_button">خیریه</string>
+    <string name="login_signup_as_philanthropist"><u>ثبت‌نام به عنوان نذر کننده</u></string>
+    <string name="login_send_button">ارسال</string>
+
+    <string name="home_philanthropist_screen_title">لیست مؤسسات</string>
+    <string name="home_charity_screen_title">لیست خیرین</string>
+    <string name="home_philanthropist_btn_add">نذر غذا</string>
+    <string name="home_try_again"><u>تلاش مجدد</u></string>
+
+    <string name="food_details_screen_title">جزئیات غذا</string>
+    <string name="food_details_btn_accept">رزرو نذر</string>
+    <string name="food_details_recycler_item_fixed_txt_food">غذا : </string>
+    <string name="food_details_recycler_item_fixed_txt_count">تعداد : </string>
+    <string name="food_details_alert_text">آیا از رزرو غذا مطمئن هستید؟</string>
+
+    <string name="request_otp_screen_title">ثبت‌نام</string>
+    <string name="request_otp_phoneNumber_hint">*******۰۹۱۲</string>
+    <string name="request_otp_send">ارسال</string>
+
+    <string name="validate_screen_title">ثبت‌نام</string>
+    <string name="validate_otp_code_hint">کد تایید</string>
+    <string name="validate_send">ارسال</string>
+
+    <string name="signup_screen_title">ثبت‌نام</string>
+    <string name="signup_user_name_hint">نام کاربری</string>
+    <string name="signup_password_hint">رمز عبور</string>
+    <string name="signup_repassword_hint">تکرار رمز عبور</string>
+    <string name="signup_send">ارسال</string>
+
+    <string name="add_food_screen_title">نذر غذا</string>
+    <string name="add_food_send">ارسال</string>
+    <string name="add_food_dialog_fixed_txt">لطفا اطلاعات غذا را وارد کنید</string>
+    <string name="add_food_dialog_food_name_hint">نام غذا</string>
+    <string name="add_food_dialog_food_count_hint">تعداد(پرس)</string>
+    <string name="add_food_dialog_btn_cancel">لغو</string>
+    <string name="add_food_dialog_btn_add">افزودن</string>
+    <string name="add_food_recycler_item_fixed_txt_food">غذا : </string>
+    <string name="add_food_recycler_item_fixed_txt_count">تعداد : </string>
+    <string name="add_food_warning_dialog_fixed_txt">آیا از ارسال نذر خود مطمئن هستید؟</string>
+    <string name="add_food_warning_dialog_btn_ok">بله</string>
+    <string name="add_food_warning_dialog_btn_no">خیر</string>
+
+    <string name="available_food_screen_title">نذرهای جدید</string>
+
+    <string name="notification_title_text">نذر جدید</string>
+    <string name="notification_details_text">برای مشاهده جزئیات کلیک کنید</string>
+
+    <string name="toast_wellcome">خوش آمدید</string>
+    <string name="toast_exit_warning">برای خروج یکبار دیگر بازگشت را بزنید</string>
+    <string name="toast_food_reserved">غذا رزرو شد</string>
+    <string name="toast_send_food_list_successfuly">لیست غذا با موفقیت ارسال شد</string>
+    <string name="toast_no_food_exists_to_send">غذایی جهت ارسال وجود ندارد!</string>
+    <string name="toast_no_internet">لطفا به اینترنت متصل شوید</string>
+    <string name="toast_no_internet_before_acttion">عدم اتصال به اینترنت!</string>
+    <string name="toast_signup_successful">ثبت‌نام با موفقیت انجام شد</string>
+
+    <string name="error_code_1">کد اشتباه است!</string>
+    <string name="error_code_2">عدم تایید صلاحیت!</string>
+    <string name="error_code_4">شماره تلفن تکراری است!</string>
+    <string name="error_code_5">کاربر یافت نشد!</string>
+    <string name="error_code_6">عدم رزرو، غذا توسط مؤسسه دیگری رزرو شده است!</string>
+    <string name="error_code_7">غذا با چنین آی‌دی وجود ندارد!</string>
+    <string name="error_code_8">اعلان قبلا دریافت شده است!</string>
+    <string name="error_code_9">غذای جدید وجود ندارد!</string>
+    <string name="error_code_10">نام‌کاربری تکراری است!</string>
+    <string name="error_code_500">مشکلی در سرور پیش آمده است!</string>
+
+    <string name="error_enter_code">لطفا کد را وارد کنید</string>
+    <string name="error_incomplete_input">ورودی ناقص</string>
+    <string name="error_conflict_password">عدم مطابقت رمز</string>
+    <string name="error_enter_phone_number">لطفا شماره موبایل را وارد کنید</string>
+    <string name="error_incorrect_phone_number_count">تعداد ارقام نادرست است</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBackground"
+    android:paddingTop="40dp"
+    android:paddingBottom="15dp"
+    android:paddingStart="40dp"
+    android:paddingEnd="40dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/edt_validateOtp_otp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:hint="@string/validate_otp_code_hint"
+            android:textColorHint="@color/hintColor"
+            android:inputType="numberDecimal"
+            android:background="@drawable/rounded_edittext"
+            android:maxLength="6"
+            android:textSize="@dimen/regular"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btn_validateOtp_send"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="#FFF"
+            android:background="@drawable/custom_button"
+            android:text="@string/validate_send"
+            android:textAllCaps="false"
+            android:textSize="@dimen/regular" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

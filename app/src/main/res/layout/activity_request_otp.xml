@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:id="@+id/edt_RequestOTP_phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_edittext"
+            android:drawableRight="@drawable/ic_phone_iphone_black_24dp"
+            android:drawablePadding="12dp"
+            android:gravity="center|right"
+            android:hint="@string/request_otp_phoneNumber_hint"
+            android:inputType="numberDecimal"
+            android:maxLength="11"
+            android:maxLines="1"
+            android:paddingRight="10dp"
+            android:textSize="@dimen/regular"
+            android:textColorHint="@color/hintColor" />
+
+        <Button
+            android:id="@+id/btn_RequestOTP_send"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_button"
+            android:text="@string/request_otp_send"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="@dimen/regular" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baseBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="15dp">
+
+        <ProgressBar
+            android:id="@+id/progressBar_login"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_login_userName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableRight="@drawable/ic_person_black_24dp"
+                android:drawablePadding="12dp"
+                android:gravity="right|center"
+                android:hint="@string/login_user_name_hint"
+                android:inputType="text"
+                android:layoutDirection="rtl"
+                android:maxLength="15"
+                android:maxLines="1"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/regular" />
+
+            <EditText
+                android:id="@+id/edt_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableRight="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="12dp"
+                android:gravity="right|center"
+                android:hint="@string/login_password_hint"
+                android:inputType="textPassword"
+                android:layoutDirection="rtl"
+                android:maxLength="12"
+                android:maxLines="1"
+                android:paddingRight="10dp"
+                android:textColorHint="@color/hintColor"
+                android:textSize="@dimen/regular" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layoutDirection="rtl"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_login_charity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:layoutDirection="rtl"
+                        android:text="@string/login_charity_radio_button"
+                        android:textSize="@dimen/regular" />
+
+                    <RadioButton
+                        android:id="@+id/radio_login_philanthropist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="12dp"
+                        android:checked="true"
+                        android:layoutDirection="rtl"
+                        android:text="@string/login_philanthropist_radio_button"
+                        android:textSize="@dimen/regular" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_login_signup"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:layoutDirection="rtl"
+            android:text="@string/login_signup_as_philanthropist"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/bold_medium"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login_send"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_button"
+            android:layoutDirection="rtl"
+            android:text="@string/login_send_button"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:textSize="@dimen/regular" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
